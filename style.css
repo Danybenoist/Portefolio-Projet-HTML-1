@@ -1,0 +1,53 @@
+body {
+    font-family:"Roboto", sans-serif; margin: 0%; 
+}
+body{
+    background-color: #fff0f5;
+    color: #333;
+}
+.titreprincipal { 
+    text-align: center;
+    background: linear-gradient(#f8bbd0,#e1bee7);
+    padding: 20px; margin: 0%;   font-size: 42px;
+    border-radius: 15px; box-shadow: 4;
+}
+.contenu  { 
+    
+    display: flex;
+}
+.barredenav {background-color: #f48fb1; display: flex; justify-content: center;
+}
+
+.barredenav ul{
+    list-style: none; display: flex; gap: 80px;
+}
+
+.barredenav li a {color:white; font-weight: bold;
+padding: 8px 12px;
+border-radius: 10px; 
+}
+
+.barredenav li a:hover {
+    background-color:#ce93d8  ;
+}
+.contenu{padding: 30px; 
+}
+h3 { 
+    color: #ad1457;
+    font-weight: 700;
+    display: flex;
+    padding-bottom: 5px ;
+    font-size: 24px;
+}
+.texte { margin-top: 10px ;
+}
+
+form input {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+  border: 1px color #ddd;
+  border-radius: 8px; }
+  form label {
+    font-weight: bold;
+  }
